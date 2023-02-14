@@ -1,0 +1,21 @@
+{
+    "name": "test",
+    "queue": "test",
+    "website_name": "",
+    "image_type":"selenium",
+    "scraper_type": "test",
+    "tags": {
+        "country": "us"
+    },
+    "description": "",
+    "parameters": [
+        {
+            "name": "",
+            "description":"",
+            "regex": "",
+            "accepted_values": [],
+            "default_value": "",
+            "type":"primary"
+        }
+    ]
+}
