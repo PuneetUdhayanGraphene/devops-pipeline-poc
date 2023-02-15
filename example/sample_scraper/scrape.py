@@ -1,2 +1,2 @@
-def scrape(keyword: str, count: int) -> list:
+def scrape(keyword: str, count: int) -> str:
     return 'bob'
