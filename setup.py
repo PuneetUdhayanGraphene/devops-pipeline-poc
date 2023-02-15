@@ -7,7 +7,7 @@ long_description = 'POC in command line packages using python'
   
 setup(
         name ='devopspipelinepoc',
-        version ='0.1.5',
+        version ='0.1.6',
         author ='Puneet Udhayan',
         author_email ='puneetudhayan@gmail.com',
         url ='https://github.com/PuneetUdhayanGraphene/devops-pipeline-poc',
