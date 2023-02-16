@@ -4,4 +4,4 @@ from .scrape import scrape
 
 
 def test_scrape():
-    assert scrape(keyword='bob', count=5) == 'no'
+    assert scrape(keyword='placeholder', count=5) == 'placeholder'
