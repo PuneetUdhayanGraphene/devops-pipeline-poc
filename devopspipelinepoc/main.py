@@ -1,7 +1,6 @@
 import pkg_resources
 import json
 import sys
-import shutil
 import inspect
 from pathlib import Path
 
@@ -53,6 +52,7 @@ def list_data():
 def add_worker_file(path: str):
     worker_file_path = Path(path).joinpath("worker.py")
 
+    sys.path.append(path)
     from scrape import scrape
     return_type = inspect.signature(scrape).return_annotation
 
